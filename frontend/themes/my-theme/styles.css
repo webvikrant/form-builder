@@ -1,0 +1,34 @@
+/*
+   CSS styling examples for the Vaadin app.
+
+   Visit https://vaadin.com/docs/styling/application-theme/ for more information.
+*/
+
+/* Example: CSS class name to center align the content . */
+.master-component {
+	border-radius: 3px;
+}
+
+.v-dragged.master-component {
+    outline: 2px dotted blue;
+    opacity: 0.9;
+}
+
+.form-builder {
+	border: 2px solid silver;
+	border-radius: 3px;
+}
+.v-drag-over-target.form-builder {
+   outline: 2px dotted blue;
+ 	border-radius: 3px;
+}
+
+.field-component {
+	border: 2px solid silver;
+	border-radius: 3px;
+}
+.v-drag-over-target.field-component {
+   outline: 2px dotted red;
+ 	border-radius: 3px;
+}
+
